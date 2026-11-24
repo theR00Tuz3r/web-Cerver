@@ -1,14 +1,3 @@
-/*
- * Basic static web server in C (port 8000)
- * Serves files from a folder (default: current directory).
- * Only the C standard library + POSIX sockets, no third-party libs.
- *
- * Build:  gcc -Wall -Wextra -o webserver webserver.c
- * Run:    ./webserver            (serves ./)
- *         ./webserver ./public   (serves ./public)
- * Open:   http://localhost:8000/
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
